@@ -10,4 +10,10 @@
     <Compile Remove="REFERENCE_FRAMES.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="**/*.meta" />
+    <None Remove=".gitignore" />
+    <None Remove="README.md" />
+  </ItemGroup>
+
 </Project>
