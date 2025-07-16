@@ -272,7 +272,7 @@ namespace OpenDis.Enumerations.Entity.Information.Minefield
         /// Converts the instance of <see cref="PaintScheme"/> to the byte array.
         /// </summary>
         /// <returns>The byte array representing the current <see cref="PaintScheme"/> instance.</returns>
-        public byte[] ToByteArray() => BitConverter.GetBytes(ToByte());
+        public byte[] ToByteArray() => new byte[] { ToByte() };
 
         /// <summary>
         /// Converts the instance of <see cref="PaintScheme"/> to the byte value.
